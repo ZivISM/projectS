@@ -1,0 +1,14 @@
+{
+  "name": "ishahbak",
+  "version": "1.0.0",
+  "description": "iShahbak Social Platform",
+  "scripts": {
+    "start": "cd client && npm start",
+    "server": "cd server && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run start\"",
+    "install-all": "npm install && cd client && npm install && cd ../server && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  }
+} 
